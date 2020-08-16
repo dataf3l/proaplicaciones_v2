@@ -1,5 +1,5 @@
 ---
-title: "Contact"
-description: "This is meta description."
+title: "Contacto"
+description: "Hacer solicitud de pedido o inquietud aquí"
 draft: false
 ---

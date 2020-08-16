@@ -1,9 +1,9 @@
 # default configuration
-baseURL = "http://examplesite.com"
+baseURL = "http://proaplicaciones.com"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
-title = "Kross | Hugo Portfolio Template"
+title = "Proaplicaciones: Productividad y Aplicaciones"
 
 # css plugins
 [[params.plugins.css]]
@@ -28,42 +28,42 @@ URL = "plugins/shuffle/shuffle.min.js"
 # menu
 [[menu.main]]
 URL = "about"
-name = "About"
+name = "Acerca de Nosotros"
 weight = 2
 
-[[menu.main]]
-URL = "blog"
-name = "Blog"
-weight = 3
+#[[menu.main]]
+#URL = "blog"
+#name = "Blog"
+#weight = 3
 
-[[menu.main]]
-URL = "portfolio"
-name = "Portfolio"
-weight = 4
+#[[menu.main]]
+#URL = "portfolio"
+#name = "Portfolio"
+#weight = 4
 
 [[menu.main]]
 URL = "contact"
-name = "Contact"
+name = "Contáctenos"
 weight = 5
 
 
 # default parameters
 [params]
 home = "Home"
-logo = "images/logo.png"
+logo = "images/logo.svg"
 # theme color
 theme_color = "#41228e"
 # contact info
-phone = "+880 2544 658 256"
-email = "steve.fruits@email.com"
-address = "125/A, CA Commercial Area, California, USA"
+phone = "+57 312-496-8693 / +57 300-305-7003"
+email = "felipe@proaplicaciones.com"
+address = "Bogotá, Colombia"
 # meta description
-author = "Johnathan Smith"
-description = "This is meta description"
+author = "Luis Felipe Valdés"
+description = "empresa de desarrollo de software en bogota"
 # google analytics
-google_analytics_id = "" # Your ID
+google_analytics_id = "UA-75484739-1" # Proaplicaciones Todos los datos de sitios web
 # copyright
-copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2013-2020  Todos los derechos reservados"
 
 
 # contact
@@ -85,9 +85,9 @@ icon = "ti-facebook"
 URL = "#"
 icon = "ti-instagram"
 
-[[params.social]]
-URL = "#"
-icon = "ti-dribbble"
+#[[params.social]]
+#URL = "#"
+#icon = "ti-dribbble"
 
 [[params.social]]
 URL = "#"

@@ -1,41 +1,41 @@
 # work process
 work_process:
   enable : true
-  title : "Work Process"
+  title : "Nuestro Proceso de Trabajo"
   item:
-  - title : "Research and Plan"
+  - title : "Planeación/Investigación"
     icon : "images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "Horas de programación pueden ahorrar minutos de planeación! antes de empezar cada proyecto, investigamos acerca del estado del arte"
     
-  - title : "Design and Develop"
+  - title : "Diseño y Desarrollo"
     icon : "images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "Trabajamos de la mano con el cliente, para entender sus necesidades y así desarrollar una solución que cumpla con sus necesidades."
     
-  - title : "Deliver"
+  - title : "Implementación y paso a Producción"
     icon : "images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "Una vez la solución esta probada y es aprobada por el cliente, nosotros realizamos el paso a producción. normalmente esto involucra procesos de monitoría de procesos"
 
 
 # team
 team:
-  enable: true
-  title : "My Team"
+  enable: enable
+  title : "El Equipo de Trabajo"
   team_member:
-    - title : "Jack Schenziwe"
+    - title : "Luis Felipe Valdés"
       image : "images/team/member-1.png"
-      designation : "Project Manager"
+      designation : "Cofundador - Desarrollo"
       
-    - title : "Julias Carlie"
+    - title : "Wilfer Figueredo"
       image : "images/team/member-2.png"
-      designation : "Web Developer"
+      designation : "Cofundador - Desarrollo"
       
-    - title : "John Doe"
-      image : "images/team/member-3.png"
-      designation : "Designer"
+#    - title : "John Doe"
+#      image : "images/team/member-3.png"
+#      designation : "Designer"
 
 
 # client logo slider
 clients_logo_slider:
-  enable : true
+  enable : false
   title : "My Clients"
   # clients logo comes from 'data/homepage.yml' file

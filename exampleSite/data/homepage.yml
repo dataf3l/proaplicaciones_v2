@@ -1,45 +1,45 @@
 # banner
 banner:
-  title : "Hi! I’m <br> Christoher <br> UX designer"
+  title : "Proaplicaciones"
 
 # about
 about:
   enable : true
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  content : "Proaplicaciones (Productividad y Aplicaciones) es una empresa de Software, Nosotros nos especializamos en el desarrollo de aplicaciones web modernas y aplicaciones móviles. Tenemos la experiencia necesaria para ejecutar su Proyecto de Software, entendemos el Software como un servicio, no como un producto. "
   button:
     enable : true
-    label : "know more"
+    label : "leer más"
     URL : "about"
 
 # skill
 skill:
   enable : true
-  title : "Skills"
+  title : "Herramientas con las que hemos trabajado en el pasado"
   item:
-    - title : "Web Design"
-      progress : "90%"
+    - title : "Go"
+      progress : "50%"
       color : "#fdb157"
       
-    - title : "Logo Design"
-      progress : "60%"
+    - title : "Java"
+      progress : "20%"
       color : "#9473e6"
       
-    - title : "After Effects"
+    - title : "Python"
       progress : "80%"
       color : "#bdecf6"
       
-    - title : "Web App"
-      progress : "70%"
+    - title : "C#"
+      progress : "50%"
       color : "#ffbcaa"
 
 # experience
 experience:
-  enable : true
-  title : "Experience"
+  enable : false
+  title : "Proyectos Recientes"
   item: 
     - logo : "images/experience/icon-1.png"
-      title : "Junior UX Designer"
-      company : "WEBEX"
+      title : "tutree.com"
+      company : "tutree"
       duration : "Jan 2007 - Feb 2009"
       
     - logo : "images/experience/icon-2.png"
@@ -52,9 +52,11 @@ experience:
       company : "THEMEFISHER"
       duration : "Sep 2014 - Present"
 
+  
+      
 # education
 education:
-  enable : true
+  enable : false
   title : "Education"
   item:
     - title : "Marters in UX Design"
@@ -76,33 +78,33 @@ education:
 # service
 service:
   enable : true
-  title : "Services"
+  title : "Servicios"
   item:
-    - title : "UI Design"
+    - title : "Mantenimiento de Software"
       icon : "ti-palette"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      content : "Tenemos experiencia modificando bases de código de legado, en múltiples plataformas, entre ellas PHP, Python, Go, C# y Java entre otras"
       highlighted : false
 
-    - title : "UX Design"
+    - title : "Aplicaciones Web"
       icon : "ti-vector"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      content : "La Web es nuestro entorno natural, tenemos más de 20 años de experiencia en este medio, para nosotros el HTML, CSS y Javascript son un medio de expresión "
       highlighted : true
 
-    - title : "Interaction Design"
+    - title : "Desarrollo de video juegos"
       icon : "ti-panel"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      content : "Creemos que existen excelentes oportunidades en el área educativa para los juegos, tenemos conocimientos de programación en Unity3D y C++/OpenGL"
       highlighted : false
 
 # portfolio
 portfolio:
-  enable : true
-  title : "Portfolio"
+  enable : false
+  title : "Portafolio"
   item_show : 5
   # portfolio item comes from 'data/portfolio.yml' item.
 
 # testimonial
 testimonial:
-  enable : true
+  enable : false
   title : "Testimonials"
   item:
     - name : "Jesica Gomez"
@@ -122,7 +124,7 @@ testimonial:
 
 # client logo slider
 clients_logo_slider:
-  enable : true
+  enable : false
   item:
     - logo : "images/clients-logo/client-logo-1.png"
       URL : "http://examplesite.com"
@@ -156,6 +158,6 @@ clients_logo_slider:
 
 # blog
 blog:
-  enable : true
-  title : "Blogs"
+  enable : false
+  title : "Noticias"
   # blog post comes from "content/blog" folder
