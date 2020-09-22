@@ -31,10 +31,10 @@ URL = "about"
 name = "Acerca de Nosotros"
 weight = 2
 
-#[[menu.main]]
-#URL = "blog"
-#name = "Blog"
-#weight = 3
+[[menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 3
 
 #[[menu.main]]
 #URL = "portfolio"

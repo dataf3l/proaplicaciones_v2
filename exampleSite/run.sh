@@ -1,1 +1,1 @@
-hugo server --themesDir ../.. -D
+hugo server --disableFastRender --themesDir ../.. -D
