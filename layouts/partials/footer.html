@@ -39,14 +39,23 @@
       <div class="row">
         <div class="col-md-4">
           <h5 class="text-light">Email</h5>
-          <p class="text-white paragraph-lg font-secondary">{{.Site.Params.email}}</p>
+          <p class="text-white paragraph-lg font-secondary"><a href="mailto:{{.Site.Params.email}}">{{.Site.Params.email}}</a></p>
+          <!-- <p class="text-white paragraph-lg font-secondary"><a href="mailto:wfigueredo@proaplicaciones.com">wfigueredo@proaplicaciones.com</a></p> -->
         </div>
         <div class="col-md-4">
-          <h5 class="text-light">Phone</h5>
-          <p class="text-white paragraph-lg font-secondary">{{.Site.Params.phone}}</p>
+          <h5 class="text-light">Teléfono</h5>
+          <p class="text-white paragraph-lg font-secondary"><a href="tel:{{.Site.Params.phone}}">{{.Site.Params.phone}}</a></p>
+          <h5 class="text-light">Whatsapp</h5>
+          <p class="text-white paragraph-lg font-secondary"><a href="https://wa.me/+573124968693">https://wa.me/+573124968693</a></p>
+          <!-- <p class="text-white paragraph-lg font-secondary"><a href="https://wa.me/+573003057003">https://wa.me/+573003057003</a></p> -->
+          <h5 class="text-light">Linked IN</h5>
+          <p class="text-white paragraph-lg font-secondary"><a href="https://www.linkedin.com/in/luisfelipevaldes/">https://www.linkedin.com/in/luisfelipevaldes/</a></p>
+          <!-- <p class="text-white paragraph-lg font-secondary"><a href="https://www.linkedin.com/in/wilfer-figueredo/">https://www.linkedin.com/in/wilfer-figueredo/</a></p> -->
+
         </div>
+	
         <div class="col-md-4">
-          <h5 class="text-light">Address</h5>
+          <h5 class="text-light">Dirección</h5>
           <p class="text-white paragraph-lg font-secondary">{{.Site.Params.address}}</p>
         </div>
       </div>

@@ -25,9 +25,9 @@ team:
       image : "images/team/member-1.png"
       designation : "Cofundador - Desarrollo"
       
-    - title : "Wilfer Figueredo"
-      image : "images/team/member-2.png"
-      designation : "Cofundador - Desarrollo"
+#    - title : "Wilfer Figueredo"
+#      image : "images/team/member-2.png"
+#      designation : "Cofundador - Desarrollo"
       
 #    - title : "John Doe"
 #      image : "images/team/member-3.png"
