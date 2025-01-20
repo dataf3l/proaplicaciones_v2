@@ -1,5 +1,5 @@
 # default configuration
-baseURL = "http://proaplicaciones.com"
+baseURL = "https://proaplicaciones.com"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
