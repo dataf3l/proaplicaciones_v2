@@ -54,7 +54,7 @@ logo = "images/logo.svg"
 # theme color
 theme_color = "#41228e"
 # contact info
-phone = "+57 312-496-8693 / +57 300-305-7003"
+phone = "+57 312-496-8693 "
 email = "felipe@proaplicaciones.com"
 address = "Bogotá, Colombia"
 # meta description
@@ -63,7 +63,7 @@ description = "empresa de desarrollo de software en bogota"
 # google analytics
 google_analytics_id = "UA-75484739-1" # Proaplicaciones Todos los datos de sitios web
 # copyright
-copyright = "Copyright &copy; 2013-2020  Todos los derechos reservados"
+copyright = "Copyright &copy; 2013-2025  Todos los derechos reservados"
 
 
 # contact
